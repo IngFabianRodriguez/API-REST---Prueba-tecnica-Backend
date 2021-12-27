@@ -4,10 +4,11 @@ API REST realizada en Python con el framework flask al momento de realizar su ej
 Para ejecutar localmente la solucion se deben seguir los siguiente pasos:
 
 1. Instalar Python 3.9.0
-2. creacion de un entorno virtual con el comando:
+2. Creacion de un entorno virtual con el comando:
 	py -m venv venv 
-3. Instalar las librerias que se encuentran en el archivo requirements.txt con el comando: pip install -r requirements.txt
-4. Ejecutar el archivo main.py con el comando py main.py
+3. Abrir el entorno virtual con .venv/Scripts/activate
+4. Instalar las librerias que se encuentran en el archivo requirements.txt con el comando: pip install -r requirements.txt
+5. Ejecutar el archivo main.py con el comando py main.py
 ## Descripcion API:
 ### 1. POST: /operacion/cuadratica
 Se crea apuntamiento localhost:5000/operacion/cuadratica con el metodo POST para realizar la operacion cuadratica y calcular las 2 posibles soluciones para la fórmula cuadrática.
